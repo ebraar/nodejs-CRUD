@@ -5,7 +5,7 @@ Aşağıdaki komutları kullanarak çalıştırabilirsiniz:
 - npm i -y
 - npm i nodemon mongoose
 - npm run dev
-- bu işlemden sonra arayüz2ü görmek için http://localhost:3000/ adresinden test edebilirsiniz.
+- bu işlemden sonra arayüzü görmek için http://localhost:3000/ adresinden test edebilirsiniz.
   
 ## Rapor 
 1. Gün: Atılan eğitim videosu izlendi. Oradaki endpointleri kendim yazıp postmanda test ettim.
