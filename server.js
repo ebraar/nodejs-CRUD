@@ -5,6 +5,10 @@ const app = express();
 // Public klasörünü statik dosyalar için servis et
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
