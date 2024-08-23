@@ -5,3 +5,9 @@ Aşağıdaki komutları kullanarak çalıştırabilirsiniz:
 - npm i -y
 - npm i nodemon mongoose
 - npm run dev
+- bu işlemden sonra arayüz2ü görmek için http://localhost:3000/ adresinden test edebilirsiniz.
+  
+## Rapor 
+1. Gün: Atılan eğitim videosu izlendi. Oradaki endpointleri kendim yazıp postmanda test ettim.
+2. Gün: İstenilen CRUD işlemlerini kendi düşündüğüm blog sitesi projesine entegre ederek yazmaya çalıştım.
+3. Gün: Yazdığım endpointleri postmanda test ettikten sonra html ve css kullanarak basic bir arayüz hazırladım. 
