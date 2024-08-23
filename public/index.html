@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog CRUD Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Posts CRUD Interface</h1>
+        
+        <div class="blog-form">
+            <h2>Add/Edit Blog Post</h2>
+            <form id="blogForm">
+                <input type="hidden" id="postId" />
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Content" required></textarea>
+                <button type="submit">Save Post</button>
+            </form>
+        </div>
+
+        <div class="blog-list">
+            <h2>Blog Posts</h2>
+            <ul id="postsList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
